@@ -1,0 +1,331 @@
+<<<<<<< HEAD
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.title, h1, h5{
+    color: #ffffff;
+    font-family: 'Staatliches', cursive;
+}
+h1{
+    padding-top: 50px;
+    border-bottom: 5px solid #ffffff;
+}
+
+h5{
+    padding-top: 20px;
+}
+
+.home-bar{
+   
+    outline: none;
+    color: #ffffff;
+}
+
+body{
+    background-image: url(image/street.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.overlay{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 0;
+    left: 0;
+    top: 0;
+    background-color: #000000;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay1{
+  height: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 0;
+  left: 0;
+  top: 0;
+  background-color: #000000;
+  overflow-x: hidden;
+  transition: 0.5s;
+  opacity: 0.9;
+}
+.overlay-content{
+    position: relative;
+    top: 25%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    font-family: 'Staatliches', cursive;
+  }
+.overlay-content1{
+  position: relative;
+    top: 15%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    font-family: 'Staatliches', cursive;
+}
+  
+  /* The navigation links inside the overlay */
+  .overlay a, .overlay1 a{
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: rgb(236, 124, 142);
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+  }
+
+  .closebtn, .closebtn1{
+      background-color: inherit;
+      color: rgb(236, 124, 142);
+      border: none;
+      outline: none;   
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .overlay a:hover, .overlay a:focus, .overlay1 a:hover, .overlay1 a:focus {
+    color: #f1f1f1;
+  }
+  
+  /* Position the close button (top right corner) */
+  .overlay .closebtn, .overlay1 .closebtn1 {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 20px;
+  }
+  
+  /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+  @media screen and (max-height: 450px) {
+    .overlay a, .overlay1 a {font-size: 20px}
+    .overlay .closebtn, .overlay1 .closebtn1 {
+      font-size: 20px;
+      top: 15px;
+      right: 35px;
+    }
+  }
+
+  /* About */
+.about-content{
+    background-color: #ffffff;
+    opacity: 0.8;
+    width: 200px;
+    height: 350px;
+    font-family: 'Mali', cursive;
+    font-size: 10px;
+    color: #000000;
+    margin-left: 5px;
+}
+
+.nhanmanh{
+    color: red;
+}
+
+/*CONTACT*/
+.navbar-container .list-icon{
+  top: 0;
+  left: 0;
+  transform: translate(50%,50%);
+}
+.sm a {
+  display: inline-flex;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: #ffffff;
+  align-items: center;
+  border-radius: 20px;
+  color: #aaaaaa;
+  font-size: 18px;
+  transition: 0.4s;
+  opacity: 0.8;
+  margin-right: 5px;
+}
+
+.sm a:hover {
+  background: #aaaaaa;
+  color: #ffffff;
+  transform: scale(1.2);
+}
+
+.sm{
+  margin-top: 100px;
+}
+
+/*Story*/
+.slider{
+  top: 0;
+  transform: translateY(50%);
+  position: absolute;
+}
+
+=======
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.title, h1, h5{
+    color: #ffffff;
+    font-family: 'Staatliches', cursive;
+}
+h1{
+    padding-top: 50px;
+    border-bottom: 5px solid #ffffff;
+}
+
+h5{
+    padding-top: 20px;
+}
+
+.home-bar{
+   
+    outline: none;
+    color: #ffffff;
+}
+
+body{
+    background-image: url(image/street.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.overlay{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 0;
+    left: 0;
+    top: 0;
+    background-color: #000000;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay1{
+  height: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 0;
+  left: 0;
+  top: 0;
+  background-color: #000000;
+  overflow-x: hidden;
+  transition: 0.5s;
+  opacity: 0.9;
+}
+.overlay-content{
+    position: relative;
+    top: 25%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    font-family: 'Staatliches', cursive;
+  }
+.overlay-content1{
+  position: relative;
+    top: 15%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    font-family: 'Staatliches', cursive;
+}
+  
+  /* The navigation links inside the overlay */
+  .overlay a, .overlay1 a{
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: rgb(236, 124, 142);
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+  }
+
+  .closebtn, .closebtn1{
+      background-color: inherit;
+      color: rgb(236, 124, 142);
+      border: none;
+      outline: none;   
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .overlay a:hover, .overlay a:focus, .overlay1 a:hover, .overlay1 a:focus {
+    color: #f1f1f1;
+  }
+  
+  /* Position the close button (top right corner) */
+  .overlay .closebtn, .overlay1 .closebtn1 {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 20px;
+  }
+  
+  /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+  @media screen and (max-height: 450px) {
+    .overlay a, .overlay1 a {font-size: 20px}
+    .overlay .closebtn, .overlay1 .closebtn1 {
+      font-size: 20px;
+      top: 15px;
+      right: 35px;
+    }
+  }
+
+  /* About */
+.about-content{
+    background-color: #ffffff;
+    opacity: 0.8;
+    width: 200px;
+    height: 350px;
+    font-family: 'Mali', cursive;
+    font-size: 10px;
+    color: #000000;
+    margin-left: 5px;
+}
+
+.nhanmanh{
+    color: red;
+}
+
+/*CONTACT*/
+.navbar-container .list-icon{
+  top: 0;
+  left: 0;
+  transform: translate(50%,50%);
+}
+.sm a {
+  display: inline-flex;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: #ffffff;
+  align-items: center;
+  border-radius: 20px;
+  color: #aaaaaa;
+  font-size: 18px;
+  transition: 0.4s;
+  opacity: 0.8;
+  margin-right: 5px;
+}
+
+.sm a:hover {
+  background: #aaaaaa;
+  color: #ffffff;
+  transform: scale(1.2);
+}
+
+.sm{
+  margin-top: 100px;
+}
+
+/*Story*/
+.slider{
+  top: 0;
+  transform: translateY(50%);
+  position: absolute;
+}
+
+>>>>>>> ccae73a57ab644846c68d6990fca7ef84ea9363d
